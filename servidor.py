@@ -3,6 +3,7 @@ from flask import Flask, app
 from random import randint
 
 app=Flask(__name__)
+#numero elegido aleatoriamente
 aleatorio=randint(0,9)
 print(aleatorio)
 
