@@ -12,6 +12,7 @@ def home():
     return "<h1>Adivina un número entre en 0 y 9</h1>\
     <img src='https://media.giphy.com/media/3o7aCSPqXE5C6T8tBC/giphy.gif'/>"
 
+#esta ruta se ingresa en el navegador
 @app.route("/<int:adivinado>")
 def adivinando(adivinado):
     if adivinado<aleatorio:
